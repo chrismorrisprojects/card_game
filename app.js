@@ -10,7 +10,9 @@ const indexRouter = require('./app_server/routes/index');
 const usersRouter = require('./app_server/routes/users');
 
 const app = express();
-
+var listener = app.listen(8888, function(){
+  console.log('Listening on port ' + listener.address().port); //Listening on port 8888
+});
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));
 app.set('view engine', 'pug');
