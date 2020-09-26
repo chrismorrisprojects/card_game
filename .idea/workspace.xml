@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/controllers/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/controllers/podcasts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/models/podcasts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/views/_includes/sharedHTMLfunctions.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/views/card-list.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/views/podcasts-list.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -32,12 +43,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app_server/controllers" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\controllers" />
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\models" />
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\views" />
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_api" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server" />
     </key>
@@ -56,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601133697166</updated>
       <workItem from="1601133698665" duration="4169000" />
-      <workItem from="1601144263878" duration="4521000" />
+      <workItem from="1601144263878" duration="6678000" />
     </task>
     <servers />
   </component>
@@ -75,6 +92,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="230" key="#com.intellij.ide.macro.MacrosDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601143576780" />
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601151643127">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151643127" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -95,10 +116,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1899" height="285" key="GridCell.Tab.0.right/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144250235" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1601133900242">
+    <state x="461" y="170" key="SettingsEditor" timestamp="1601151245199">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601133900242" />
+    <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601148563495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
