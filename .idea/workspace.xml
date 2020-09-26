@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,14 +37,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\controllers" />
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\models" />
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\views" />
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_api" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601161809699</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="testing comment">
+      <created>1601164096727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601164096727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="testing comment">
+      <created>1601164221206</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601164221206</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +101,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added port descriptor" />
     <MESSAGE value="added port" />
-    <option name="LAST_COMMIT_MESSAGE" value="added port" />
+    <MESSAGE value="testing comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing comment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601144232423">
@@ -104,10 +117,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151643127" />
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601161809277">
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601164220911">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601161809277" />
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164220911" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -132,10 +145,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601161813237">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601164227302">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601161813237" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164227302" />
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601148563495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
