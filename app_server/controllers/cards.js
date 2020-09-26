@@ -6,7 +6,7 @@ const cardList = (req, res) => {
             title: 'Tarot Cards',
             strapLine: 'Digital tarot card readings you control!'
             },
-        sidebar: "Digital tarot card reading to help you navigate life. -- Testing CI/CD"
+        sidebar: "Digital tarot card reading to help you navigate life."
         });
 };
 
