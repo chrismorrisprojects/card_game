@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/card_game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/models/cards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/models/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/views/error.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/views/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_server/views/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1i3QG9eynnWMimNnZwsX5l1H7Wx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="" />
+      <created>1601133697166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601133697166</updated>
+      <workItem from="1601133698665" duration="4169000" />
+      <workItem from="1601144263878" duration="3036000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601144232423">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144232423" />
+    <state x="740" y="230" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1601143576780">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="230" key="#com.intellij.ide.macro.MacrosDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601143576780" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601143583461" />
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1601144250235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144250235" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1601144250235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.center/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144250235" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1601144250235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.left/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144250235" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1601144250235">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="285" key="GridCell.Tab.0.right/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144250235" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1601133900242">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601133900242" />
+  </component>
+</project>
