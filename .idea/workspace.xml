@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_server/controllers/cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_server/controllers/podcasts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_server/models/podcasts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_server/views/_includes/sharedHTMLfunctions.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_server/views/card-list.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_server/views/podcasts-list.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +65,21 @@
       <workItem from="1601133698665" duration="4169000" />
       <workItem from="1601144263878" duration="6678000" />
     </task>
+    <task id="LOCAL-00001" summary="added port descriptor">
+      <created>1601161708915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601161708915</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added port">
+      <created>1601161809699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601161809699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +87,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added port descriptor" />
+    <MESSAGE value="added port" />
+    <option name="LAST_COMMIT_MESSAGE" value="added port" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601144232423">
@@ -96,6 +104,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151643127" />
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601161809277">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601161809277" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -120,6 +132,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601161813237">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601161813237" />
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601148563495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
