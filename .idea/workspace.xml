@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_api/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/db.js" afterDir="false" />
-    </list>
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601173940412</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added ability to query cards from mongoDB over the rest API.">
+      <created>1601174751455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601174751455</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151643127" />
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601173939880">
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601174750995">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601173939880" />
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601174750995" />
     <state x="2505" y="276" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165025180" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -201,10 +205,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601173945352">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601174755073">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601173945352" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601174755073" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165028639" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601173773134">
       <screen x="0" y="0" width="1920" height="1050" />
