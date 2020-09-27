@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 let dbURI = 'mongodb://localhost/card_game';
-console.log(process.env.ENVIRONMENT);
+
 if (process.env.ENVIRONMENT === 'production') {
     dbURI =  process.env.MONGODB_URI;
 }
