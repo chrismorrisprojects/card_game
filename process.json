@@ -1,8 +1,9 @@
 {
   "apps" : [{
     "name"        : "card",
-    "script"      : "/var/www/html/card_game/app.js",
+    "script"      : "app.js",
+    "cwd" : "/var/www/html/card_game/",
     "watch"       : ["app.js", "app_server", "app_api"],
-    "log_date_format"  : "YYYY-MM-DD HH:mm Z",
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z"
   }]
 }
