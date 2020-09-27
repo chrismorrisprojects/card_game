@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/process.json" beforeDir="false" afterPath="$PROJECT_DIR$/process.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/models/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/db.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +45,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\controllers" />
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\models" />
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server\views" />
       <recent name="C:\Users\chris\Dropbox\projects\card_game\app_api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_api\models" />
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_api" />
+      <recent name="C:\Users\chris\Dropbox\projects\card_game\app_server" />
     </key>
   </component>
   <component name="RunManager">
@@ -191,6 +199,10 @@
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164673961" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165028639" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601173773134">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601173773134" />
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601148563495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

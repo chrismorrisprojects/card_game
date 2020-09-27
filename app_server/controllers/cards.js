@@ -5,9 +5,9 @@ const cardList = (req, res) => {
         pageHeader:{
             title: 'Tarot Cards',
             strapLine: 'Digital tarot card readings you control!'
-            },
+        },
         sidebar: "Digital tarot card reading to help you navigate life."
-        });
+    });
 };
 
 module.exports = {
