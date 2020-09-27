@@ -2,7 +2,31 @@ const mongoose = require('mongoose');
 const mdlCard = mongoose.model('cards');
 const cardsReadOne = (req, res) => {
     mdlCard
-        .find({name: req.params.cardname})
+        .findOne({name: req.params.cardname})
+        .exec((err, card) => {
+            if (!card) {
+                return res
+                    .status(404)
+                    .json({"message": "card not found"});
+            } else if (err) {
+                return res
+                    .status(404)
+                    .json(err);
+            } else {
+                return res
+                    .status(200)
+                    .json(card);
+            }
+        });
+};
+
+
+const cardRandom = (req, res) => {
+    console.log("test");
+    let randomCard = Math.floor(Math.random() * 78)
+    console.log("random number: " + randomCard);
+    mdlCard
+        .findOne().skip(randomCard)
         .exec((err, card) => {
             if (!card) {
                 return res
@@ -28,5 +52,6 @@ const cardCreate = (req, res) => {
 
 module.exports = {
     cardsReadOne,
-    cardCreate
+    cardCreate,
+    cardRandom
 };
