@@ -98,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601164606928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed ci/cd comment">
+      <created>1601164670706</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601164670706</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding process.json file for pm2 auto restart">
+      <created>1601164924458</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601164924458</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +124,9 @@
     <MESSAGE value="added port" />
     <MESSAGE value="testing comment" />
     <MESSAGE value="testing CI/CD with pm2 watch" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing CI/CD with pm2 watch" />
+    <MESSAGE value="removed ci/cd comment" />
+    <MESSAGE value="adding process.json file for pm2 auto restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding process.json file for pm2 auto restart" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601144232423">
@@ -125,10 +141,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151643127" />
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601164606536">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2505" y="276" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601164924143">
+      <screen x="1920" y="183" width="1920" height="1050" />
     </state>
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164606536" />
+    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164670387" />
+    <state x="2505" y="276" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601164924143" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -153,10 +170,11 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601164610295">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2472" y="441" key="Vcs.Push.Dialog.v2" timestamp="1601164927958">
+      <screen x="1920" y="183" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164610295" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601164673961" />
+    <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601164927957" />
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601148563495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
