@@ -7,6 +7,8 @@ const ctrlCards = require('../controllers/cards');
 
 /* GET home page. */
 
-router.get('/cards', ctrlCards.cardList);
+router
+    .route('/cards/celticCross')
+    .get(ctrlCards.celticCross);
 
 module.exports = router;

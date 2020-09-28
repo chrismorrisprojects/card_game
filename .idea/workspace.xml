@@ -24,9 +24,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this.">
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Added 10 card random draw for Celtic cross.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_api/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <workItem from="1601133698665" duration="4169000" />
       <workItem from="1601144263878" duration="6678000" />
       <workItem from="1601226992950" duration="317000" />
-      <workItem from="1601327797378" duration="4399000" />
+      <workItem from="1601327797378" duration="5604000" />
     </task>
     <task id="LOCAL-00001" summary="added port descriptor">
       <created>1601161708915</created>
@@ -198,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601226837949</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added 10 card random draw for Celtic cross.">
+      <created>1601332288119</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601332288119</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +236,8 @@
     <MESSAGE value="adding process.json file for pm2 auto restart" />
     <MESSAGE value="Added ability to query cards from mongoDB over the rest API." />
     <MESSAGE value="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this." />
+    <MESSAGE value="Added 10 card random draw for Celtic cross." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 10 card random draw for Celtic cross." />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601329799653">
@@ -250,10 +261,10 @@
     </state>
     <state x="2479" y="275" width="1198" height="825" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601226788363" />
     <state x="2505" y="276" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165025180" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601332442356">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601143583461" />
+    <state x="740" y="280" key="FileChooserDialogImpl/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601332442356" />
     <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1601144250235">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -274,10 +285,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601226844208">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601332291621">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601226844208" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601332291621" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165028639" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601173773134">
       <screen x="0" y="0" width="1920" height="1050" />
