@@ -16,3 +16,4 @@ jobs:
         script: |
           cd /var/www/html/card_game
           git pull origin master
+          pm2 restart card
