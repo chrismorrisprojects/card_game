@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:heroku" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Added 75">
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_api/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +90,8 @@
       <updated>1601133697166</updated>
       <workItem from="1601133698665" duration="4169000" />
       <workItem from="1601144263878" duration="6678000" />
+      <workItem from="1601226992950" duration="317000" />
+      <workItem from="1601327797378" duration="4399000" />
     </task>
     <task id="LOCAL-00001" summary="added port descriptor">
       <created>1601161708915</created>
@@ -167,11 +191,30 @@
       <option name="project" value="LOCAL" />
       <updated>1601175269191</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this.">
+      <created>1601226837949</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601226837949</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -182,13 +225,14 @@
     <MESSAGE value="removed ci/cd comment" />
     <MESSAGE value="adding process.json file for pm2 auto restart" />
     <MESSAGE value="Added ability to query cards from mongoDB over the rest API." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to query cards from mongoDB over the rest API." />
+    <MESSAGE value="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 75 of 78 cards. Need to add Ten of Cups, Four of Cups, and Ace of Wands.&#10;&#10;Also added draw random card at api/cards/draw, but this broke get card by name. Need to understand how to fix this." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601144232423">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601329799653">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601144232423" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601329799653" />
     <state x="734" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601174338564">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -201,10 +245,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151643127" />
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2" timestamp="1601225992051">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="2479" y="275" width="1198" height="825" key="CommitChangelistDialog2" timestamp="1601226788363">
+      <screen x="1920" y="183" width="1920" height="1050" />
     </state>
-    <state x="585" y="93" width="749" height="854" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601225992051" />
+    <state x="2479" y="275" width="1198" height="825" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601226788363" />
     <state x="2505" y="276" key="CommitChangelistDialog2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165025180" />
     <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1601143583461">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -230,10 +274,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601151245199" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601175271980">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601226844208">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601175271980" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601226844208" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601165028639" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601173773134">
       <screen x="0" y="0" width="1920" height="1050" />
