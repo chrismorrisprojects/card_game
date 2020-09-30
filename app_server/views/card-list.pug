@@ -6,7 +6,18 @@ block content
     .row.banner
         .col-12
             h1= pageHeader.title
-            small &nbsp;#{pageHeader.strapLine}
+                small &nbsp;#{pageHeader.strapLine}
+
+    .row
+        .col-12.col-md-8
+            .error= message
+
+            small tarot_cards
+//            each tarot_card in tarot_cards
+//                .card
+//                    .card-block
+//                        h4
+//                            tarot_card.name
 
         .col-12.col-md-4
             p.lead= sidebar

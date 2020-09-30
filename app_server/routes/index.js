@@ -7,11 +7,11 @@ const ctrlCards = require('../controllers/cards');
 
 /* GET home page. */
 
-//router
-//    .route('/cards/celticCross')
-//    .get(ctrlCards.celticCross);
+router
+    .route('/cards/celticCross')
+    .get(ctrlCards.getCelticCross);
 
-router.get('/cards', ctrlCards.cardList);
+//router.get('/cards', ctrlCards.cardList);
 
 module.exports = router;
 

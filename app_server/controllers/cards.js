@@ -1,25 +1,55 @@
-//const request = require('request');
-//const apiOptions = {
-//    server: 'http://localhost:3000'
-//};
-//
-//const celticCross = (req, res) =>{
-//
-//}
-//
-//const getCelticCross = (req, res, callback) => {
-//    const apiPath = '/api/cards/draw';
-//    const requestOptions = {
-//        url: '${apiOptions.server}${path}',
-//        method: 'GET',
-//        json: {}
-//    };
-//
-//}
-//
-//const renderCelticCross = (req, res) => {
-//
-//}
+const request = require('request');
+const apiOptions = {
+    server: 'http://localhost:3000'
+};
+
+
+const getCelticCross = (req, res, callback) => {
+    const apiPath = '/api/cards/draw';
+    const requestOptions = {
+         url:   'http://localhost:3000/api/cards/draw',
+        method: 'GET',
+        json: {}
+    };
+
+    request(
+        requestOptions,
+        (err, {statusCode, body}) => {
+            console.log(body);
+            if (statusCode === 200 && body.length) {
+                data = body.map( (item) => {
+                    return item;
+                });
+            }
+            renderCelticCross(req, res, data);
+        }
+    )
+
+}
+
+const renderCelticCross = (req, res, responseBody) => {
+    let message = null;
+    if (!(responseBody instanceof Array)){
+        message = 'API Lookup Error';
+        responseBody = [];
+    } else {
+        if (!responseBody.length) {
+            message = "no cards found";
+        }
+    }
+    res.render('card-list',
+        {
+            title: 'title',
+            pageHeader:{
+                title: 'title2',
+                strapLine: 'strapLine',
+        },
+        sidebar: 'sidebar',
+        tarot_cards: responseBody,
+        message
+        }
+    );
+};
 const cardList = (req, res) => {
     res.render('card-list', {
         title: 'List of Tarot Cards',
@@ -32,5 +62,6 @@ const cardList = (req, res) => {
 };
 
 module.exports = {
-    cardList
+    getCelticCross,
+    renderCelticCross
 };
