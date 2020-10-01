@@ -24,12 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="API almost connected to view, having a problem rendering the cards text to the screen though.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_api/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/views/card-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/views/card-list.pug" afterDir="false" />
-    </list>
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Added cerltic cross draw and view, added images and keywords. Next is to arrange the cards in the celtic cross pattern." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +92,7 @@
       <workItem from="1601327797378" duration="5663000" />
       <workItem from="1601334501983" duration="435000" />
       <workItem from="1601417005730" duration="3133000" />
-      <workItem from="1601591384428" duration="964000" />
+      <workItem from="1601591384428" duration="1783000" />
     </task>
     <task id="LOCAL-00001" summary="added port descriptor">
       <created>1601161708915</created>
@@ -232,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601425129798</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added cerltic cross draw and view, added images and keywords. Next is to arrange the cards in the celtic cross pattern.">
+      <created>1601592553371</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601592553371</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,7 +276,8 @@
     <MESSAGE value="Starting to hook views to the rest API." />
     <MESSAGE value="Fixed random draw being broken." />
     <MESSAGE value="API almost connected to view, having a problem rendering the cards text to the screen though." />
-    <option name="LAST_COMMIT_MESSAGE" value="API almost connected to view, having a problem rendering the cards text to the screen though." />
+    <MESSAGE value="Added cerltic cross draw and view, added images and keywords. Next is to arrange the cards in the celtic cross pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added cerltic cross draw and view, added images and keywords. Next is to arrange the cards in the celtic cross pattern." />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601329799653">
@@ -330,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601424061838" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601425150527">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1601592558652">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601425150527" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601592558652" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601334775943" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601173773134">
       <screen x="0" y="0" width="1920" height="1050" />

@@ -22,6 +22,13 @@ const cardsReadOne = (req, res) => {
         });
 };
 
+//TODO
+//next I need to get my random function to rerun if it draws a duplicate card
+//then add in twitter sentiment
+//then have twitter sentiment impact orientation -- not sure how to do this yet exactly
+//actually, yeah I do.
+//    draw each card ten times, each time flip a coin. >=5, positive, less than 5 negative. Twitter sentiment will change the >=5< number. positive twitter sentiment lowers the threshold for good, negative raises it
+//at the end of the coin flips, whichever came up the most is the orientation
 
 
 const cardRandom = (req, res) => {
