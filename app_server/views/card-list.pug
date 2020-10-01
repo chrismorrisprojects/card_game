@@ -12,12 +12,16 @@ block content
         .col-12.col-md-8
             .error= message
 
-            small tarot_cards
-//            each tarot_card in tarot_cards
-//                .card
-//                    .card-block
-//                        h4
-//                            tarot_card.name
+            each tarot in tarots
+                .card
+                    .card-block
+                        h1
+                            p= tarot.name
+                            img(src=`/images/cards/${tarot.img}`)
+                            h4
+                            each keyword in tarot.keywords
+                                p= keyword
+
 
         .col-12.col-md-4
             p.lead= sidebar

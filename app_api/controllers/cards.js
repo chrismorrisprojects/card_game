@@ -28,7 +28,7 @@ const cardRandom = (req, res) => {
     let i;
     let cardsToDraw = [];
     let drawnCards = [];
-    for (i = 0; i < celticCrossAmt; i++) {
+    for (i = 0; i <= celticCrossAmt; i++) {
         let randomCard = Math.floor(Math.random() * 78);
         cardsToDraw.push(randomCard);
     }

@@ -45,7 +45,7 @@ const renderCelticCross = (req, res, responseBody) => {
                 strapLine: 'strapLine',
         },
         sidebar: 'sidebar',
-        tarot_cards: responseBody,
+        tarots: responseBody,
         message
         }
     );
