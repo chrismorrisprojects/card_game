@@ -38,6 +38,9 @@ const cardRandom = (req, res) => {
     for (i = 0; i <= celticCrossAmt; i++) {
         let randomCard = Math.floor(Math.random() * 78);
         cardsToDraw.push(randomCard);
+        cardsToDraw = cardsToDraw.filter( function( item, index, inputArray ) {
+            return inputArray.indexOf(item) == index;
+        });
     }
     console.log(cardsToDraw);
     for (let i = 0; i < cardsToDraw.length; i++){
@@ -55,7 +58,7 @@ const cardRandom = (req, res) => {
                 } else {
                     console.log(typeof card);
                     drawnCards.push(card);
-                    if (i === celticCrossAmt - 1) {
+                    if (drawnCards.length === celticCrossAmt) {
                         return res
                             .status(200)
                             .json(drawnCards);

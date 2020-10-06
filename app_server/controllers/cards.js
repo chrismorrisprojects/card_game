@@ -39,10 +39,10 @@ const renderCelticCross = (req, res, responseBody) => {
     }
     res.render('card-list',
         {
-            title: 'title',
+            title: 'TaroTwit',
             pageHeader:{
-                title: 'title2',
-                strapLine: 'strapLine',
+                title: 'TaroTwit',
+                strapLine: 'Your fortune from the collective energy of the internet.',
         },
         sidebar: 'sidebar',
         tarots: responseBody,

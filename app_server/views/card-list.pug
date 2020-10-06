@@ -6,7 +6,8 @@ block content
     .row.banner
         .col-12
             h1= pageHeader.title
-                small &nbsp;#{pageHeader.strapLine}
+
+            small &nbsp;#{pageHeader.strapLine}
 
     .row
         .col-12.col-md-8
@@ -19,9 +20,5 @@ block content
                             p= tarot.name
                             img(src=`/images/cards/${tarot.img}`)
                             h4
-                            each keyword in tarot.keywords
-                                p= keyword
-
-
-        .col-12.col-md-4
-            p.lead= sidebar
+                            each fortune in tarot.fortune_telling
+                                p= fortune
