@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const ctrlCards = require('../controllers/cards');
+const ctrlTwitter = require('../controllers/twitter');
 
 
 //router
@@ -13,5 +14,9 @@ const ctrlCards = require('../controllers/cards');
 router
     .route('/cards/draw')
     .get(ctrlCards.cardRandom);
+
+router
+    .route('/twitter/sentiment')
+    .get(ctrlTwitter.twitterSentiment);
 
 module.exports = router;

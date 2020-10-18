@@ -15,7 +15,7 @@ const getCelticCross = (req, res, callback) => {
     request(
         requestOptions,
         (err, {statusCode, body}) => {
-            console.log(body);
+            //console.log(body);
             if (statusCode === 200 && body.length) {
                 data = body.map( (item) => {
                     return item;

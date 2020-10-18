@@ -32,5 +32,9 @@ const cardSchema = new mongoose.Schema({
         type: String,
         required: false
     },
+    alignment: {
+        type: Number,
+        required: false
+    }
 });
 mongoose.model('cards', cardSchema);
