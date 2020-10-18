@@ -35,6 +35,10 @@ const cardSchema = new mongoose.Schema({
     alignment: {
         type: String,
         required: false
+    },
+    orderNumber: {
+        type: Number,
+        required: false
     }
 });
 mongoose.model('cards', cardSchema);

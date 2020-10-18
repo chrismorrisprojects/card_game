@@ -24,7 +24,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Twitter sentiment is now passed along to card alignment view and impacts the rotation of the image via CSS transform." />
+    <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Fixed port issue and aded port change based off of environment.">
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/models/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/views/card-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/views/card-list.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/views/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +45,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="Pug File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,6 +70,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.68" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app_server/controllers" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -105,7 +117,7 @@
       <workItem from="1602361922206" duration="1665000" />
       <workItem from="1602363601072" duration="8805000" />
       <workItem from="1603031541012" duration="10530000" />
-      <workItem from="1603042388551" duration="4752000" />
+      <workItem from="1603042388551" duration="16087000" />
     </task>
     <task id="LOCAL-00001" summary="added port descriptor">
       <created>1601161708915</created>
@@ -275,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603046937872</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Fixed port issue and aded port change based off of environment.">
+      <created>1603047386859</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1603047386859</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +343,9 @@
     <MESSAGE value="Redid the loop to draw cards. Added bootstrap and some styling with better text on the page.  &#10;&#10;Applied for Twitter API and added the Twitter npm client." />
     <MESSAGE value="Adding promises to the twitter sentiment for cards. Not quite complete but app is in a functioning state." />
     <MESSAGE value="Twitter sentiment is now passed along to card alignment view and impacts the rotation of the image via CSS transform." />
-    <option name="LAST_COMMIT_MESSAGE" value="Twitter sentiment is now passed along to card alignment view and impacts the rotation of the image via CSS transform." />
+    <MESSAGE value="Fixed port issue." />
+    <MESSAGE value="Fixed port issue and aded port change based off of environment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed port issue and aded port change based off of environment." />
   </component>
   <component name="WindowStateProjectService">
     <state x="759" y="392" key="#Usage_Scope" timestamp="1603036609060">
@@ -384,10 +405,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603036612219" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603046943784">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1603047390915">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603046943784" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603047390915" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601334775943" />
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603043682112">
       <screen x="0" y="0" width="1920" height="1050" />

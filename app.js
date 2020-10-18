@@ -13,17 +13,19 @@ const apiRouter = require('./app_api/routes/index');
 const app = express();
 //test2
 
+if (process.env.ENVIRONMENT === 'dev') {
+  var listener = app.listen(3002, function(){
+    console.log('Listening on port ' + listener.address().port); //Listening on port 8888
+  });
+}
+
 if (process.env.ENVIRONMENT === 'production') {
   var listener = app.listen(3000, function(){
     console.log('Listening on port ' + listener.address().port); //Listening on port 8888
   });
 }
 
-if (process.env.ENVIRONMENT === 'dev') {
-  var listener = app.listen(3001, function(){
-    console.log('Listening on port ' + listener.address().port); //Listening on port 8888
-  });
-}
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server', 'views'));

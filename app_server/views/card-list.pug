@@ -2,23 +2,103 @@ extends layout
 
 include _includes/sharedHTMLfunctions
 
+
+
 block content
+    - var tarotCards = tarots;
+    - var tarotIndex = tarots.length;
+    - var i = 9;
     .row.banner
         .col-12
             h1= pageHeader.title
 
-            small &nbsp;#{pageHeader.strapLine}
+            h3= pageHeader.strapLine
 
     .row
-        .col-12.col-md-8
-            .error= message
+        .col.align-self-center
+            each tarot,index in tarots
+                if index === 3
+                    .card
+                        .card-block
+                            h3
+                                p= tarot.name
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
+                                h4
+                                each fortune in tarot.fortune_telling
+                                    p= fortune
+                                p= `Card draw number: ${index+1}`
 
-            each tarot in tarots
-                .card
-                    .card-block
-                        h1
-                            p= tarot.name
-                            img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                            h4
-                            each fortune in tarot.fortune_telling
-                                p= fortune
+        .col
+            each tarot,index in tarots
+                if index === 4
+                    .card
+                        .card-block
+                            h3
+                                p= tarot.name
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
+                                h4
+                                each fortune in tarot.fortune_telling
+                                    p= fortune
+                                p= `Card draw number: ${index+1}`
+
+            each tarot,index in tarots
+                if index === 0 || index === 1
+                    .card
+                        .card-block
+                            h3
+                                p= tarot.name
+                                .div.flex-row
+                                    if index === 1 && tarot.alignment === 'negative'
+                                        img(src=`/images/cards/${tarot.img}` class='card-two-negative')
+                                    if index === 1 && tarot.alignment === 'positive'
+                                        img(src=`/images/cards/${tarot.img}` class='card-two-positive')
+                                    if index === 0
+                                        img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
+                                h4
+                                each fortune in tarot.fortune_telling
+                                    p= fortune
+                                p= `Card draw number: ${index+1}`
+
+            each tarot,index in tarots
+                if index === 2
+                    .card
+                        .card-block
+                            h3
+                                p= tarot.name
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
+                                h4
+                                each fortune in tarot.fortune_telling
+                                    p= fortune
+                                p= `Card draw number: ${index + 1}`
+
+        .col.align-self-center
+            each tarot,index in tarots
+                if index === 5
+                    .card
+                        .card-block
+                            h3
+                                p= tarot.name
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
+                                h4
+                                each fortune in tarot.fortune_telling
+                                    p= fortune
+                                p= `Card draw number: ${index+1}`
+
+
+        .col
+            each tarot,index in tarots.reverse()
+                if index < 4
+                    .card
+                        .card-block
+                            h3
+                                p= tarot.name
+
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
+                                h4
+                                each fortune in tarot.fortune_telling
+                                    p= fortune
+                                p= `Card draw number: ${(10-index)}`
+
+
+
+
