@@ -3,9 +3,14 @@ const  router = express.Router();
 
 
 const ctrlCards = require('../controllers/cards');
+const ctrlHomePage = require('../controllers/homepage');
 
 
 /* GET home page. */
+
+router
+    .route('/')
+    .get(ctrlHomePage.renderHomePage);
 
 router
     .route('/cards/celticCross')

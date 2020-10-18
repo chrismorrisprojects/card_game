@@ -14,90 +14,98 @@ block content
 
             h3= pageHeader.strapLine
 
-    .row
-        .col.align-self-center
+    .row.align-items-center.h-100
+        .col
             each tarot,index in tarots
                 if index === 3
-                    .card
-                        .card-block
-                            h3
-                                p= tarot.name
-                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                                h4
-                                each fortune in tarot.fortune_telling
-                                    p= fortune
-                                p= `Card draw number: ${index+1}`
+                    .card.text-center.d-flex.align-items-center.justify-content-center
+                        .card-block.d-flex.align-items-center.justify-content-center
+                            .container.d-flex.align-items-center.justify-content-center
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card d-flex align-items-center justify-content-center`)
+                                .overlay
+                                    .hidden-text
+                                        .tarot-dec
+                                            p=`Card draw number: ${(10 - index)}`
+                                            p=tarot.name
+                                            each fortune in tarot.fortune_telling
+                                                p=fortune
 
         .col
             each tarot,index in tarots
                 if index === 4
-                    .card
-                        .card-block
-                            h3
-                                p= tarot.name
-                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                                h4
-                                each fortune in tarot.fortune_telling
-                                    p= fortune
-                                p= `Card draw number: ${index+1}`
-
+                    .card.text-center.d-flex.align-items-center.justify-content-center
+                        .card-block.d-flex.align-items-center.justify-content-center
+                            .container.d-flex.align-items-center.justify-content-center
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card d-flex align-items-center justify-content-center`)
+                                .overlay
+                                    .hidden-text
+                                        .tarot-dec
+                                            p=`Card draw number: ${(10 - index)}`
+                                            p=tarot.name
+                                            each fortune in tarot.fortune_telling
+                                                p=fortune
             each tarot,index in tarots
                 if index === 0 || index === 1
-                    .card
-                        .card-block
-                            h3
-                                p= tarot.name
-                                .div.flex-row
-                                    if index === 1 && tarot.alignment === 'negative'
-                                        img(src=`/images/cards/${tarot.img}` class='card-two-negative')
-                                    if index === 1 && tarot.alignment === 'positive'
-                                        img(src=`/images/cards/${tarot.img}` class='card-two-positive')
-                                    if index === 0
-                                        img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                                h4
-                                each fortune in tarot.fortune_telling
-                                    p= fortune
-                                p= `Card draw number: ${index+1}`
+                    .card.text-center.d-flex.align-items-center.justify-content-center
+                        .card-block.d-flex.align-items-center.justify-content-center
+                            .container.d-flex.align-items-center.justify-content-center
+                                if index === 1 && tarot.alignment === 'negative'
+                                    img(src=`/images/cards/${tarot.img}` class='card-two-negative')
+                                if index === 1 && tarot.alignment === 'positive'
+                                    img(src=`/images/cards/${tarot.img}` class='card-two-positive')
+                                if index === 0
+                                    img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card d-flex align-items-center justify-content-center`)
+                                .overlay
+                                    .hidden-text
+                                        .tarot-dec
+                                            p=`Card draw number: ${(10 - index)}`
+                                            p=tarot.name
+                                            each fortune in tarot.fortune_telling
+                                                p=fortune
 
             each tarot,index in tarots
                 if index === 2
-                    .card
-                        .card-block
-                            h3
-                                p= tarot.name
-                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                                h4
-                                each fortune in tarot.fortune_telling
-                                    p= fortune
-                                p= `Card draw number: ${index + 1}`
+                    .card.text-center.d-flex.align-items-center.justify-content-center
+                        .card-block.d-flex.align-items-center.justify-content-center
+                            .container.d-flex.align-items-center.justify-content-center
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card d-flex align-items-center justify-content-center`)
+                                .overlay
+                                    .hidden-text
+                                        .tarot-dec
+                                            p=`Card draw number: ${(10 - index)}`
+                                            p=tarot.name
+                                            each fortune in tarot.fortune_telling
+                                                p=fortune
 
-        .col.align-self-center
+        .col
             each tarot,index in tarots
                 if index === 5
-                    .card
-                        .card-block
-                            h3
-                                p= tarot.name
-                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                                h4
-                                each fortune in tarot.fortune_telling
-                                    p= fortune
-                                p= `Card draw number: ${index+1}`
-
+                    .card.text-center.d-flex.align-items-center.justify-content-center
+                        .card-block.d-flex.align-items-center.justify-content-center
+                            .container.d-flex.align-items-center.justify-content-center
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card d-flex align-items-center justify-content-center`)
+                                .overlay
+                                    .hidden-text
+                                        .tarot-dec
+                                            p=`Card draw number: ${(10 - index)}`
+                                            p=tarot.name
+                                            each fortune in tarot.fortune_telling
+                                                p=fortune
 
         .col
             each tarot,index in tarots.reverse()
                 if index < 4
-                    .card
-                        .card-block
-                            h3
-                                p= tarot.name
-
-                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
-                                h4
-                                each fortune in tarot.fortune_telling
-                                    p= fortune
-                                p= `Card draw number: ${(10-index)}`
+                    .card.text-center.d-flex.align-items-center.justify-content-center
+                        .card-block.d-flex.align-items-center.justify-content-center
+                            .container.d-flex.align-items-center.justify-content-center
+                                img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card d-flex align-items-center justify-content-center`)
+                                .overlay
+                                    .hidden-text
+                                        .tarot-dec
+                                            p=`Card draw number: ${(10 - index)}`
+                                            p=tarot.name
+                                            each fortune in tarot.fortune_telling
+                                                p=fortune
 
 
 
