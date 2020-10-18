@@ -33,7 +33,7 @@ const cardSchema = new mongoose.Schema({
         required: false
     },
     alignment: {
-        type: Number,
+        type: String,
         required: false
     }
 });

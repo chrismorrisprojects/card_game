@@ -106,3 +106,10 @@ body {
   color: #fff;
   background-color: #651093;
 }
+
+.negative-card{
+  transform: rotate(180deg);
+}
+
+.negative-card{
+}

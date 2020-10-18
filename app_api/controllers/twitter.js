@@ -47,18 +47,6 @@ const predict = (text, model, metadata) => {
     return score;
 }
 
-const getSentiment = (score) => {
-    if (score > 0.66) {
-        return `Score of ${score} is Positive`;
-    }
-    else if (score > 0.4) {
-        return `Score of ${score} is Neutral`;
-    }
-    else {
-        return `Score of ${score} is Negative`;
-    }
-}
-
 const getSentimentTweet = async (text) => {
     const model = await loadModel();
     const metadata = await getMetaData();
@@ -74,8 +62,8 @@ const getSentimentTweet = async (text) => {
             console.log(error);
 
     }
-    let sentimentScore = getSentiment(sum/text.length);
-    //console.log(sentimentScore);
+    let sentimentScore = (sum/text.length);
+    console.log(sentimentScore);
     return(sentimentScore);
 
 
@@ -89,25 +77,20 @@ const client = new Twitter({
 
 
 const twitterSentiment = () => {
-    return new Promise(function(resolve, reject) {
-        setTimeout(() => resolve(1), 1);
+    return new Promise(resolve => {
+        console.log("twitter sentiment function");
         let sentimentTweets = [];
         client.get('search/tweets', {q: '#magic'}, function (error, tweets, response) {
             tweets.statuses.forEach(function (tweet) {
                 sentimentTweets.push(tweet.text)
             });
-            let sentimentScore = getSentimentTweet(sentimentTweets);
 
-            if (sentimentScore !== null){
-                resolve(console.log("completed promise"));
-                return (sentimentScore);
-            }
-            else{
-                reject(console.log("broken promise"));
-                return (.5);
-            }
+            let sentimentScore = getSentimentTweet(sentimentTweets);
+            //console.log("sentiment score:" + sentimentScore);
+            resolve(sentimentScore);
         });
-    });
+    })
+
 }
 
 module.exports = {

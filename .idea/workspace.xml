@@ -25,13 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a419d97-1725-482b-b63b-a93c69ecca95" name="Default Changelist" comment="Adding promises to the twitter sentiment for cards. Not quite complete but app is in a functioning state.">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_api/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/cards.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_api/controllers/twitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/controllers/twitter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_api/models/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_api/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/controllers/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/controllers/cards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_server/views/card-list.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app_server/views/card-list.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -61,7 +61,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
@@ -112,7 +114,8 @@
       <workItem from="1602360501971" duration="1397000" />
       <workItem from="1602361922206" duration="1665000" />
       <workItem from="1602363601072" duration="8805000" />
-      <workItem from="1603031541012" duration="4773000" />
+      <workItem from="1603031541012" duration="10530000" />
+      <workItem from="1603042388551" duration="4295000" />
     </task>
     <task id="LOCAL-00001" summary="added port descriptor">
       <created>1601161708915</created>
@@ -268,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601942942467</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adding promises to the twitter sentiment for cards. Not quite complete but app is in a functioning state.">
+      <created>1603036649741</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1603036649741</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,17 +391,17 @@
     </state>
     <state x="552" y="258" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601942945885" />
     <state x="2472" y="441" key="Vcs.Push.Dialog.v2/1920.183.1920.1050/0.0.1920.1050@1920.183.1920.1050" timestamp="1601334775943" />
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601173773134">
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603043682112">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601173773134" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603043682112" />
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601148563495">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="731" y="416" key="git4idea.remote.GitConfigureRemotesDialog/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1601148563495" />
-    <state x="623" y="227" key="search.everywhere.popup" timestamp="1602362854814">
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1603039963551">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="623" y="227" key="search.everywhere.popup/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1602362854814" />
+    <state x="623" y="227" key="search.everywhere.popup/1920.183.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1603039963551" />
   </component>
 </project>

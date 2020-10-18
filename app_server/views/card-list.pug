@@ -18,7 +18,7 @@ block content
                     .card-block
                         h1
                             p= tarot.name
-                            img(src=`/images/cards/${tarot.img}`)
+                            img(src=`/images/cards/${tarot.img}` class=`${tarot.alignment}-card`)
                             h4
                             each fortune in tarot.fortune_telling
                                 p= fortune

@@ -25,25 +25,24 @@ const cardsReadOne = (req, res) => {
 
 
 
-const cardRandom = (req, res) => {
-    let i;
-    let cardsToDraw = [];
-    let drawnCards = [];
-    //let sentimentBias = .5;
-    let sentimentBias = ctrlTwitter.twitterSentiment();
-    //sentimentPromise.then(
-    //    sentimentPromise =
-    //)
 
-    //console.log(sentimentBias);
-    for (i = 0; i <= celticCrossAmt; i++) {
+const cardDraw = () => {
+    let cardsToDraw = [];
+    for (let i = 0; i <= celticCrossAmt; i++) {
         let randomCard = Math.floor(Math.random() * 78);
         cardsToDraw.push(randomCard);
         cardsToDraw = cardsToDraw.filter( function( item, index, inputArray ) {
-            return inputArray.indexOf(item) == index;
+            return inputArray.indexOf(item) === index;
         });
     }
-    //console.log(cardsToDraw);
+    return cardsToDraw;
+}
+
+
+
+
+const celticCross = (req, res, sentimentBias, cardsToDraw) => {
+    let drawnCards = [];
     for (let i = 0; i < cardsToDraw.length; i++){
         mdlCard
             .findOne().skip(cardsToDraw[i])
@@ -61,19 +60,38 @@ const cardRandom = (req, res) => {
                     drawnCards.push(card);
                     if (drawnCards.length === celticCrossAmt) {
                         for (let i = 0; i < drawnCards.length; i++){
-                            console.log(sentimentBias);
-                            drawnCards[i].alignment = (1 * sentimentBias);
+                            let threshold = sentimentBias * 10;
+                            console.log(threshold);
+                            let coinToss = Math.floor(Math.random() * 11);
+                            console.log(coinToss);
+                            if (coinToss >= threshold){
+                                drawnCards[i].alignment = ("positive");
+                            } else{
+                                drawnCards[i].alignment = ("negative");
+                            }
+
                         }
                         return res
                             .status(200)
                             .json(drawnCards);
                     }
                 }
-
-
             });
     }
+}
 
+
+const cardRandom =  async (req, res) => {
+    let sentimentBias;
+    let cardsToDraw = [];
+    try {
+        sentimentBias = await ctrlTwitter.twitterSentiment();
+        //console.log(sentimentBias);
+        cardsToDraw = cardDraw();
+        celticCross(req, res, sentimentBias, cardsToDraw);
+    } catch(e){
+        console.error(e);
+    }
 };
 
 const cardCreate = (req, res) => {
